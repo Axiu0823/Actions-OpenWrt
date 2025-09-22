@@ -15,9 +15,6 @@
 
 
 rm -rf feeds/packages/net/mosdns
-rm -rf feeds/small/luci-app-mosdns
-rm -rf feeds/small/mosdns
-rm -rf feeds/small/v2ray-geodata
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 rm -rf feeds/packages/lang/golang
